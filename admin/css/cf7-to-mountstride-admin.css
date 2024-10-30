@@ -1,0 +1,384 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.wrap{
+	background: #fff;
+	padding: 10px;
+}
+table{
+	width: 100%;
+}
+.cf7_mount_field_map label{
+	margin:0;
+}
+th, td {
+	border: 1px solid #ddd;
+  	text-align: center;
+  	/*height: 40px;*/
+  	font-size: 14px;
+  	padding: 8px;
+}
+td {
+	text-align: left;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+.ch_submit_btn{
+	text-align: center;
+	padding-top: 20px;
+
+}
+.ch_submit_btn .primary-button {
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    font-size: 15px;
+
+}
+.wp-core-ui .notice.is-dismissible {
+    padding-right: 38px;
+    position: relative;
+    background-color: #f2f2f2f2;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+ul {
+    list-style: none;
+    padding: 0;
+
+    .inner {
+        padding-left: 1em;
+        overflow: hidden;
+        display: none;
+
+        &.show {
+          /*display: block;*/
+        }
+    }
+
+    li {
+        margin: .5em 0;
+
+        a.toggle {
+            width: 100%;
+            display: block;
+            background: rgba(0,0,0,0.78);
+            color: #fefefe;
+            padding: .75em;
+            border-radius: 0.15em;
+            transition: background .3s ease;
+
+            &:hover {
+                background: rgba(0, 0, 0, 0.9);
+            }
+        }
+    }
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* DOM Section */
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+  body{
+	background-color:#f1f1f1;
+	line-height: 1.4em;
+}
+#titlediv #title-prompt-text{
+	font-weight:normal;
+}
+a{color:#124964;}
+a:hover{color:#00a0d2;}
+.wp-admin select{height:35px;}
+
+.form-sec{
+	padding: 8px 15px 10px 15px;
+	margin: 10px 0px 0px;
+	background-color: #5235ad;
+	color: #FFF;
+	font-size: 15px;
+	position: relative;
+}
+
+.form-horizontal .form-sec .control-label{
+	padding:0px;
+}
+.form-sec .dom-close-toggle-icon{
+	position:absolute;
+	top:7px;
+	right:10px;
+}
+
+.form-sec .dom-close-toggle-icon label{
+	background:rgba(0,0,0,0.2);
+	height:27px;
+	width:27px;
+	border-radius:20px;
+	margin:0px 2px;
+	font-size:12px;
+	line-height:26px;
+	text-align:center;
+}
+.form-sec .sliderup:before {
+	content: "\f142";
+	font: 400 20px/1 dashicons;
+	top: 3px;
+	position: absolute;
+	left: 5px;
+}
+.form-main-sec{
+	cursor:pointer;
+	background:#ff536b;
+}
+.form-main-sec .dom-close-toggle-icon .slider-toggle:before{
+	content: "\f140";
+	font: 400 20px/1 dashicons;
+	top: 3px;
+	position: absolute;
+	left: 5px;
+}
+.form-main-sec.slide_open .dom-close-toggle-icon .slider-toggle:before{
+	content: "\f142";
+}
+.slide-form-sec{
+	display:none;
+}
+.form-sec .sliderdown:before {
+	content: "\f140";
+	font: 400 20px/1 dashicons;
+	top: 3px;
+	position: absolute;
+	left: 5px;
+}
+.cf7-form-listing .slide-form-sec{
+	padding:15px;
+	border:2px #ff536b solid;
+}
+.cf7-form-listing .append-field-sec{
+	padding:15px;
+	border:1px #5235ad solid;
+}
+
+
+.form-horizontal .form-sec{
+	cursor:pointer;
+}
+/*19/04*/
+h2.ui-sortable-handle{
+	font-weight: bold;
+}
+
+.cf7-form-listing form{
+	margin:0 0 35px 0px;
+}
+.enable-form label{
+	margin: 5px 0px 0px 0px !important;
+}
+
+.general_field_table .col_gen_field{
+	text-align:left;
+}
+.general_field_table .col_gen_field{
+	width:35%;
+}
+.general_field_table .col_cf7_field{
+	width:40%;
+}
+.general_field_table .col_action{
+	width:25%;
+}
+.general_field_table input{
+	width:100%;
+}
+.general_field_table select{
+	width:100%;
+}
+.general_field_table th{
+	padding:12px 8px;
+	background:#ddebf5;
+}
+label.delete_form_fields,
+label.control-label.delete-section,
+.add_note_fields{
+	font-weight:normal;
+	margin:0;
+	background: #acd4f1;
+	color: #000;
+	border: none;
+	box-shadow: none;
+	padding: 3px 14px;
+	cursor: pointer;
+	min-width: 75px;
+	text-align: center;
+}
+label.delete_form_fields:hover,
+label.control-label.delete-section:hover,
+.add_note_fields:hover{
+	background:#c2e3fb;
+}
+.general_field_table .add_new_fields,
+.general_field_table .add_new_master_fields{
+	font-weight:normal;
+	margin:0;
+	background: #5235ad;
+	color: #fff;
+	border: 1px solid #5235ad;
+	box-shadow: none;
+	padding: 3px 14px 3px 14px;
+	cursor: pointer;
+	display:inline-block;
+	text-shadow:none;
+	height:auto;
+	border-radius:0;
+	transform:translateY(0);
+}
+.general_field_table .add_new_fields label,
+.general_field_table .add_new_fields i,
+.general_field_table .add_new_master_fields label,
+.general_field_table .add_new_master_fields i{
+	font-weight:normal;
+	margin:0 3px;
+	vertical-align:middle;
+}
+.general_field_table .add_new_fields:hover,
+.general_field_table .add_new_master_fields:hover,
+.general_field_table .add_new_fields:focus,
+.general_field_table .add_new_master_fields:focus{
+	color:#5235ad;
+	background:#fff;
+	box-shadow:none;
+	transform:translateY(0);
+	border-color: #5235ad;
+}
+
+.cf7_mount_field_map .save-cf7-form{
+	font-weight:normal;
+	margin:0;
+	background: #ff536b;
+	color: #fff;
+	border: 1px solid #ff536b;
+	box-shadow: none;
+	padding: 4px 45px;
+	cursor: pointer;
+	display:inline-block;
+	text-shadow:none;
+	height:auto;
+	font-size:18px;
+}
+.cf7_mount_field_map .save-cf7-form:hover,
+.cf7_mount_field_map .save-cf7-form:focus{
+	color:#ff536b;
+	background:#fff;
+	box-shadow:none;
+	transform:translateY(0);
+	border-color: #ff536b;
+}
+.new_data_field_sec{
+	margin:20px 0 5px 0;
+}
+.cf7_mount_field_map .enable-form-old{
+	background:#3feeb6;
+	padding:10px;
+}
+
+
+
+#update_cf72mut_settings .save-settings{
+	font-weight: normal;
+	margin: 0;
+	background: #ff536b;
+	color: #fff;
+	border: 1px solid #ff536b;
+	box-shadow: none;
+	padding: 4px 18px;
+	cursor: pointer;
+	display: inline-block;
+	text-shadow: none;
+	height: auto;
+	font-size: 15px;
+}
+
+#update_cf72mut_settings .save-settings:hover, #update_cf72mut_settings .save-settings:focus{
+	color: #ff536b;
+	background: #fff;
+	box-shadow: none;
+	transform: translateY(0);
+}
+
+#update_cf72mut_settings .ch_submit_btn{
+	padding: 10px 10px
+}
+
+.wrap h3{
+	margin-top: 10px !important;
+}
+.cf7-form-listing select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: url('../../images/select-dd.svg') no-repeat right 10px center;
+	padding-right: 28px;
+}
+.cf7-form-listing select::-ms-expand {
+    display: none;
+}
+.cf7-form-listing .dom-8 .field-dom{
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.cf7-form-listing .dom-8 .field-dom-delete{
+	margin-left: 10px;
+}
+.disable{
+	cursor: not-allowed;
+}
+.disable:focus{
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07) !important;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.07) !important;
+	border-color: #ddd !important;
+}
+
+.note-section{
+	text-align:center;
+}
+.note-section img{
+	height:18px;
+}
+
+.cf72m select{
+	background-color:#fff;
+}
+.login-enable input{
+	margin-top:-2px;
+}
+.login-enable.crm-api-sec input{
+	margin-top:4px;
+	vertical-align:top;
+}
+.login-enable input[type=checkbox]:checked:before {
+    content: "\f147";
+    margin: -2px 0 0 -3px;
+    color: #1e8cbe;
+    font-size: 19px;
+}
